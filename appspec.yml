@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /usr/share/nginx/codedeploy/
-    destination: /usr/share/html/nginx/codedeploy
+  - source: /
+    destination: /usr/share/html/nginx/codedeploy/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

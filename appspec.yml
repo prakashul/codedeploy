@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /hello.html
+  - source: /usr/share/nginx/codedeploy/
     destination: /usr/share/html/nginx/codedeploy
 hooks:
   BeforeInstall:
